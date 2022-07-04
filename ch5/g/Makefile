@@ -13,8 +13,8 @@ ENTRYOFFSET	=   0x400
 # Programs, flags, etc.
 ASM		= nasm
 DASM		= ndisasm
-CC		= gcc
-LD		= ld
+CC		= i386-elf-gcc
+LD		= i386-elf-ld
 ASMBFLAGS	= -I boot/include/
 ASMKFLAGS	= -I include/ -f elf
 CFLAGS		= -I include/ -c -fno-builtin
