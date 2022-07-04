@@ -1,5 +1,5 @@
 
-;%define	_BOOT_DEBUG_	; 做 Boot Sector 时一定将此行注释掉!将此行打开后可用 nasm Boot.asm -o Boot.com 做成一个.COM文件易于调试
+%define	_BOOT_DEBUG_	; 做 Boot Sector 时一定将此行注释掉!将此行打开后可用 nasm Boot.asm -o Boot.com 做成一个.COM文件易于调试
 
 %ifdef	_BOOT_DEBUG_
 	org  0100h			; 调试状态, 做成 .COM 文件, 可调试
