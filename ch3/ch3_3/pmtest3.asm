@@ -27,7 +27,7 @@ GdtPtr		dw	GdtLen - 1	; GDT界限
 
 ; GDT 选择子
 SelectorNormal		equ	LABEL_DESC_NORMAL	- LABEL_GDT
-SelectorCode32		equ	LABEL_DESC_CODE32	- LABEL_GDT + 2
+SelectorCode32		equ	LABEL_DESC_CODE32	- LABEL_GDT 
 SelectorCode16		equ	LABEL_DESC_CODE16	- LABEL_GDT
 SelectorData		equ	LABEL_DESC_DATA		- LABEL_GDT
 SelectorStack		equ	LABEL_DESC_STACK	- LABEL_GDT

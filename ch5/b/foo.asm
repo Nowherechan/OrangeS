@@ -12,7 +12,7 @@ extern choose	; int choose(int a, int b);
 
 [section .data]	; 数据在此
 
-num1st		dd	3
+num1st		dd	5
 num2nd		dd	4
 
 [section .text]	; 代码在此
